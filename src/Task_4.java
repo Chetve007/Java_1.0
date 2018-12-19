@@ -15,7 +15,7 @@ public class Task_4 {
         System.out.print("Third: ");
         int z = scanner.nextInt();
 
-        double avg = (x + y + z) / 3.0;
+        double avg = (double) (x + y + z) / 3;
         System.out.println("Arithmetic is: " + avg);
         System.out.println("Arithmetic divide by 2: " + (int)(avg / 2));
         System.out.println(avg / 2 > 3 ? "Программа выполнена корректно" : "");
