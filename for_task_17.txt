@@ -1,4 +1,4 @@
 condition
-loop
-small ball
 temporary
+small ball
+loop

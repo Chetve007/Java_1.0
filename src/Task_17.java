@@ -27,6 +27,7 @@ public class Task_17 {
                 writeLine++;
                 bw.write(line + "\r\n");
             } while (writeLine != countLine);
+            bw.flush();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

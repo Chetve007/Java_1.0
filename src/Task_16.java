@@ -15,6 +15,7 @@ public class Task_16 {
                 if (line.compareTo("stop") == 0) break;
                 fileWriter.write(line + "\r\n");
             } while (line.compareTo("stop") != 0);
+            fileWriter.flush();
         } catch (IOException e) { e.printStackTrace(); }
 
         System.out.println("The program is closed");
